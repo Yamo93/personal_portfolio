@@ -59,7 +59,7 @@ export default function Home() {
           </Center>
           <Center>
             <Box>
-              <Text maxWidth="lg" textAlign="center" fontSize="lg" mt={5}>
+              <Text maxWidth="lg" textAlign="center" fontSize="lg" mt={5} mb={2}>
                 Let&apos;s connect:
               </Text>
               <List spacing="3">
@@ -111,7 +111,7 @@ export default function Home() {
             </a>
           </Center>
           <Center>
-            <Text maxWidth="lg" textAlign="center" fontSize="lg" mt={5}>
+            <Text maxWidth="lg" textAlign="center" fontSize="lg" mt={5} mb={2}>
               Feel free to check out my software development articles and videos 👇:
             </Text>
           </Center>
