@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 15px;
+  }
+}
+
+.leftSide {
+  width: 45%;
+  
+  @media screen and (max-width: 500px) {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+
+.rightSide {
+  width: 45%;
+
+  @media screen and (max-width: 500px) {
+    width: 90%;
+  }
+}
+
+.darkModeButton {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.smallText {
+  font-size: 15px;
+}

@@ -11,6 +11,16 @@ a {
   text-decoration: none;
 }
 
+a:not(.no-hover):hover {
+  color: white;
+  background: teal;
+}
+
 * {
   box-sizing: border-box;
+}
+
+*::selection {
+  color: white;
+  background: teal;
 }
