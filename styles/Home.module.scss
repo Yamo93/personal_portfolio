@@ -17,8 +17,8 @@
 .leftSide {
   width: 45%;
   
-  @media screen and (max-width: 500px) {
-    width: 90%;
+  @media screen and (max-width: 600px) {
+    width: 100%;
     margin-bottom: 30px;
   }
 }
@@ -26,8 +26,8 @@
 .rightSide {
   width: 45%;
 
-  @media screen and (max-width: 500px) {
-    width: 90%;
+  @media screen and (max-width: 600px) {
+    width: 100%;
   }
 }
 
